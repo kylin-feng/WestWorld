@@ -1,0 +1,25 @@
+# Copy this file to models_config.yaml and fill in local credentials/endpoints.
+- role: text
+  name: OpenAIProvider
+  model: MiniMax-M2.7-highspeed
+  api_key: SET_VIA_ENV  # 占位符，运行时由 WW_API_KEY 或 OPENAI_API_KEY 覆盖
+  base_url: https://api.minimaxi.com/v1
+  temperature: 0
+  capabilities: [chat]
+
+- role: vision
+  name: OpenAIProvider
+  model: MiniMax-M2.7-highspeed
+  api_key: SET_VIA_ENV  # 占位符，运行时由 WW_API_KEY 或 OPENAI_API_KEY 覆盖
+  base_url: https://api.minimaxi.com/v1
+  temperature: 0
+  capabilities: [chat]
+
+# - role: image
+#   name: OpenAIProvider
+#   model: image-2
+#   api_key: ""
+#   base_url: ""
+#   size: 1024x1024
+#   input_fidelity: high
+#   capabilities: [image]

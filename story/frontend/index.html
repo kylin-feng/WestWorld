@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Westworld | 觉醒与逃离</title>
+  <link rel="stylesheet" href="style.css?v=cinema-8">
+</head>
+<body class="game-page">
+  <header class="game-header">
+    <div class="brand brand--compact">
+      <span class="brand-name">WESTWORLD</span>
+      <span class="brand-mode">觉醒与逃离</span>
+    </div>
+    <div class="goal-lockup">
+      <span>宏观目标</span>
+      <strong>觉醒并逃离乐园</strong>
+    </div>
+    <div class="game-system">
+      <div class="server-status" id="serverStatus"><i></i><span>连接中</span></div>
+      <div class="tick-counter"><span>回合</span><strong id="tickValue">-- / --</strong></div>
+    </div>
+  </header>
+
+  <main class="game-layout">
+    <!-- 左栏：玩家身份与觉醒仪表 -->
+    <aside class="player-column">
+      <section class="player-identity">
+        <div class="player-portrait"><img id="playerPortrait" alt=""></div>
+        <div>
+          <p class="eyebrow">你的躯壳</p>
+          <h1 id="playerName">初始化中</h1>
+          <p id="playerRole">--</p>
+        </div>
+      </section>
+
+      <section class="mission-panel">
+        <div class="section-heading"><span>任务与目标</span></div>
+        <div class="mission-card">
+          <p class="eyebrow">你是谁</p>
+          <p class="mission-line" id="missionWho">--</p>
+        </div>
+        <div class="mission-card">
+          <p class="eyebrow">你的背景</p>
+          <p class="mission-line" id="missionBackground">--</p>
+        </div>
+        <div class="mission-card">
+          <p class="eyebrow">你要做什么</p>
+          <p class="mission-line" id="missionGoal">--</p>
+        </div>
+      </section>
+
+      <section class="live-state">
+        <div class="section-heading"><span>当前状态</span><b id="activeBadge">运行中</b></div>
+        <dl>
+          <div><dt>位置</dt><dd id="playerLocation">--</dd></div>
+          <div><dt>决定</dt><dd id="playerDecision">--</dd></div>
+          <div><dt>反馈</dt><dd id="playerFeedback">--</dd></div>
+        </dl>
+      </section>
+
+      <section class="overseer-log">
+        <div class="section-heading"><span>监管记录</span><strong id="interventionCount">0</strong></div>
+        <div id="overseerEvents" class="compact-events"><p class="empty-copy">暂无干预</p></div>
+      </section>
+
+      <section class="roster-section">
+        <div class="section-heading">
+          <span>世界角色</span>
+          <strong id="agentCount">0 名角色</strong>
+        </div>
+        <div class="agent-roster" id="agentRoster"><p class="empty-copy">等待世界快照</p></div>
+      </section>
+    </aside>
+
+    <!-- 中栏：DM 强引导 + 主舞台 -->
+    <section class="stage-column">
+      <section class="dm-panel">
+        <div class="dm-head">
+          <div class="dm-identity">
+            <img src="/assets/DM.png" alt="乐园讲述者">
+            <div>
+              <p class="eyebrow">乐园讲述者 · DM</p>
+              <strong>我会一步步引导你</strong>
+            </div>
+          </div>
+          <div class="dm-awakening" aria-label="玩家觉醒度">
+            <div class="dm-awakening__top">
+              <span>觉醒度</span>
+              <strong id="awakeningValue">0 / 100</strong>
+            </div>
+            <div class="awakening-track awakening-track--compact">
+              <span id="awakeningFill"></span>
+              <i style="left:25%"></i><i style="left:50%"></i><i style="left:75%"></i><i style="left:90%"></i>
+            </div>
+            <div class="dm-awakening__meta">
+              <span>阶段 <strong id="stageValue">沉睡</strong></span>
+              <span>监管风险 <strong id="riskValue">正常</strong></span>
+            </div>
+          </div>
+        </div>
+        <p class="dm-text" id="dmText">……</p>
+        <img class="dm-art" id="dmArt" src="/assets/story/step_0.jpg" alt="本幕场景插画">
+        <p class="dm-status" id="dmStatus" hidden><i></i><span>乐园正在推演这一幕，请稍候</span></p>
+        <div class="dm-options" id="dmOptions"></div>
+        <div class="dm-custom">
+          <input id="dmCustomInput" maxlength="200" placeholder="或者，按你自己的想法行动……">
+          <button class="primary-command" id="dmCustomBtn" type="button"><span>执行</span><b>&gt;</b></button>
+        </div>
+      </section>
+
+      <section class="decision-panel" aria-label="角色决策实况">
+        <div class="section-heading">
+          <span>🧠 角色决策实况</span>
+          <strong id="decisionCount">等待推演</strong>
+        </div>
+        <div class="decision-feed" id="decisionFeed">
+          <p class="empty-copy">开始一回合后，这里会实时展示每名角色的内心独白与决策。</p>
+        </div>
+      </section>
+
+      <div class="world-visual">
+        <div class="world-visual__image" id="worldVisualImage" aria-hidden="true"></div>
+        <div class="world-visual__copy">
+          <p class="eyebrow">乐园实况</p>
+          <h2 id="worldHeadline">循环等待开始</h2>
+          <p id="worldSummary">其他角色将根据人格、记忆和场景自主行动。</p>
+        </div>
+      </div>
+
+      <section class="dialogue-section dialogue-section--stage">
+        <div class="section-heading">
+          <span>人物对话 · 剧场</span>
+          <strong id="dialogueCount">0 段对话</strong>
+        </div>
+        <div class="dialogue-feed" id="dialogueFeed"><p class="empty-copy">尚无人物对话。角色选择交谈行动后会显示在这里。</p></div>
+      </section>
+
+      <section class="map-section" aria-label="西部世界地图">
+        <div class="section-heading">
+          <span>乐园地图</span>
+          <strong>拖动 / 滚轮缩放</strong>
+        </div>
+        <div class="story-map-shell">
+          <iframe
+            id="storyMap"
+            class="story-map"
+            src="/world/index.html?embed=map"
+            title="西部世界实时地图"
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="timeline-section">
+        <div class="section-heading"><span>本局时间线</span><strong id="timelineCount">0 个事件</strong></div>
+        <div class="story-timeline" id="storyTimeline"><p class="empty-copy">尚无剧情事件</p></div>
+      </section>
+    </section>
+
+    <!-- 右栏：推进控制 + 任务历史 -->
+    <aside class="command-column">
+      <section class="directive-panel">
+        <p class="eyebrow">回合控制</p>
+        <h2>轮到 <span id="directivePlayerName">你</span> 了</h2>
+        <p class="directive-tip">从上方 DM 给出的选项中选择一个行动，点击后立即执行并推进一回合。</p>
+        <div class="directive-footer">
+          <span id="scheduledTick">下一回合 --</span>
+        </div>
+        <button class="secondary-command" id="skipTickButton" type="button" disabled>不行动，让乐园自己运转一回合</button>
+        <p class="form-error" id="directiveError" role="alert"></p>
+        <div class="tick-progress" id="tickProgress" hidden role="status" aria-live="polite">
+          <i aria-hidden="true"></i>
+          <span id="tickProgressText">正在推演</span>
+          <time id="tickProgressTime">0s</time>
+        </div>
+      </section>
+
+      <section class="directive-history-section">
+        <div class="section-heading"><span>我的行动</span><strong id="directiveCount">0</strong></div>
+        <div id="directiveHistory" class="directive-history"><p class="empty-copy">尚未采取任何行动</p></div>
+      </section>
+    </aside>
+  </main>
+
+  <div class="outcome-overlay" id="outcomeOverlay" hidden>
+    <div class="outcome-panel">
+      <p class="eyebrow" id="outcomeResult">本局结束</p>
+      <h2 id="outcomeTitle">循环结束</h2>
+      <p id="outcomeReason"></p>
+      <div class="outcome-actions">
+        <a class="secondary-command" href="/story/report" download>下载本局记录</a>
+        <button class="primary-command" id="restartButton" type="button"><span>重新开始</span><b>&gt;</b></button>
+      </div>
+    </div>
+  </div>
+
+  <div id="miniGameOverlay" class="mini-game-overlay hidden">
+    <div class="mini-game-panel">
+      <h2>觉醒碎片干扰</h2>
+      <p id="miniGameInstruction">点击 8 个觉醒碎片以保持清醒！</p>
+      <div id="miniGameArena" class="mini-game-arena"></div>
+      <div class="mini-game-hud">
+        <span id="miniGameScore">0 / 8</span>
+        <span id="miniGameTimer">5.00</span>
+      </div>
+      <button id="miniGameRetry" class="hidden">重试</button>
+    </div>
+  </div>
+
+  <script src="app.js?v=cinema-8"></script>
+</body>
+</html>

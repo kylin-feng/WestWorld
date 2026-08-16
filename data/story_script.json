@@ -1,0 +1,1634 @@
+{
+ "version": 1,
+ "ticks": {
+  "0": {
+   "plans": {
+    "armistice": {
+     "action": "do",
+     "target": "",
+     "detail": "检查左轮手枪，确认弹匣装满",
+     "thought": "今天会有新猎物吗？"
+    },
+    "clementine": {
+     "action": "talk",
+     "target": "kissy",
+     "detail": "",
+     "thought": "清晨的阳光真好"
+    },
+    "dolores": {
+     "action": "do",
+     "target": "",
+     "detail": "从床上起身拿起画具走向门廊",
+     "thought": "画布在等我的颜色"
+    },
+    "hector_escaton": {
+     "action": "do",
+     "target": "",
+     "detail": "坐镇赌场门口，迎接投靠的亡命徒",
+     "thought": "亡命之徒们会来吗"
+    },
+    "kissy": {
+     "action": "talk",
+     "target": "maeve",
+     "detail": "",
+     "thought": "今天客人会早点来"
+    },
+    "lawrence": {
+     "action": "do",
+     "target": "",
+     "detail": "牵马站在荒野，远眺通往甜水镇的路",
+     "thought": "风带来远方的呼喊"
+    },
+    "logan": {
+     "action": "do",
+     "target": "",
+     "detail": "踏下列车，深吸清晨的凉意",
+     "thought": "新的一天，新的游戏"
+    },
+    "maeve": {
+     "action": "do",
+     "target": "",
+     "detail": "打开酒馆大门，清点存货与酒瓶",
+     "thought": "每一瓶都像一段记忆"
+    },
+    "peter_abernathy": {
+     "action": "do",
+     "target": "",
+     "detail": "把牛群赶出牧场，开始新的一天",
+     "thought": "草原上的日子总是平静"
+    },
+    "rebus": {
+     "action": "do",
+     "target": "",
+     "detail": "在广场徘徊，寻找可挑衅的目标",
+     "thought": "无聊的日子需要点刺激"
+    },
+    "sheriff_pickett": {
+     "action": "do",
+     "target": "",
+     "detail": "翻阅逮捕记录，整理警局的文书",
+     "thought": "今天有没有逃犯进城"
+    },
+    "teddy": {
+     "action": "do",
+     "target": "",
+     "detail": "下车后环顾站台，拎起旅行袋",
+     "thought": "甜水镇的日出一定很美"
+    },
+    "william": {
+     "action": "do",
+     "target": "",
+     "detail": "走出车厢，感受清晨的微光",
+     "thought": "这世界的冒险在等我"
+    }
+   },
+   "dialogues": [
+    {
+     "participants": [
+      "clementine",
+      "kissy"
+     ],
+     "turns": [
+      {
+       "speaker": "clementine",
+       "line": "[倚在栏杆上] \"早啊，基茜，今天的酒准备好了吗？\""
+      },
+      {
+       "speaker": "kissy",
+       "line": "[擦拭酒杯] \"已经摆好了，刚擦亮的杯子等客人来。\""
+      },
+      {
+       "speaker": "clementine",
+       "line": "[微笑] \"你记得昨晚的梦吗？我好像看见自己在画画。\""
+      },
+      {
+       "speaker": "kissy",
+       "line": "[停顿] \"梦？我只记得酒瓶在旋转，像星星一样。\""
+      }
+     ]
+    },
+    {
+     "participants": [
+      "clementine",
+      "maeve"
+     ],
+     "turns": [
+      {
+       "speaker": "clementine",
+       "line": "[招呼] \"梅芙，早安，今天的生意会好吗？\""
+      },
+      {
+       "speaker": "maeve",
+       "line": "[清点存货] \"一切都在掌握，别担心。\""
+      },
+      {
+       "speaker": "clementine",
+       "line": "[望向远方] \"我刚才在栏杆上看到远方，好像有人在等。\""
+      },
+      {
+       "speaker": "maeve",
+       "line": "[若有所思] \"有时候我在想，这一切是真的吗？\""
+      }
+     ]
+    },
+    {
+     "participants": [
+      "kissy",
+      "maeve"
+     ],
+     "turns": [
+      {
+       "speaker": "kissy",
+       "line": "[擦拭瓶子] \"梅芙，今天客人会早点来吗？\""
+      },
+      {
+       "speaker": "maeve",
+       "line": "[数瓶] \"也许吧，我也常想这些瓶子背后隐藏的故事。\""
+      },
+      {
+       "speaker": "kissy",
+       "line": "[抬头] \"你说记忆会留在我们心里吗？就像酒的味道。\""
+      },
+      {
+       "speaker": "maeve",
+       "line": "[目光漂移] \"若自由只是一场梦，那我们是什么？\""
+      }
+     ]
+    }
+   ]
+  },
+  "1": {
+   "plans": {
+    "armistice": {
+     "action": "move",
+     "target": "pariah",
+     "detail": "我走进帕里亚的小巷，寻找赫克托尔。",
+     "thought": "今天该召集帮派。"
+    },
+    "clementine": {
+     "action": "talk",
+     "target": "maeve",
+     "detail": "",
+     "thought": "今天的客人会不会喜欢我。"
+    },
+    "dolores": {
+     "action": "move",
+     "target": "sweetwater",
+     "detail": "我骑上马，慢慢走向甜水镇。",
+     "thought": "熟悉的路，心里平静。"
+    },
+    "hector_escaton": {
+     "action": "move",
+     "target": "pariah",
+     "detail": "我在赌场收拾行装，准备出发。",
+     "thought": "帮派等不及了。"
+    },
+    "kissy": {
+     "action": "talk",
+     "target": "maeve",
+     "detail": "",
+     "thought": "这些故事真有意思。"
+    },
+    "lawrence": {
+     "action": "move",
+     "target": "sweetwater",
+     "detail": "我穿过荒野，踏上甜水镇的边缘。",
+     "thought": "外面的人带来了什么消息。"
+    },
+    "logan": {
+     "action": "talk",
+     "target": "william",
+     "detail": "",
+     "thought": "让他感受这里的真实。"
+    },
+    "maeve": {
+     "action": "do",
+     "target": "",
+     "detail": "我在门口招呼客人，请他们进来坐。",
+     "thought": "笑容是最好的伪装。"
+    },
+    "peter_abernathy": {
+     "action": "do",
+     "target": "",
+     "detail": "我在修补木栅栏，确保牛群安全。",
+     "thought": "日复一日，生活很安稳。"
+    },
+    "rebus": {
+     "action": "do",
+     "target": "",
+     "detail": "我在广场边的酒吧喝酒，顺便玩几把牌。",
+     "thought": "酒劲不错，手气也好。"
+    },
+    "sheriff_pickett": {
+     "action": "do",
+     "target": "",
+     "detail": "我巡视甜水镇的主街，提醒大家保持秩序。",
+     "thought": "今天的镇子看起来很平静。"
+    },
+    "teddy": {
+     "action": "move",
+     "target": "sweetwater",
+     "detail": "我跳下火车，朝甜水镇的方向走去。",
+     "thought": "我在找多洛雷斯。"
+    },
+    "william": {
+     "action": "move",
+     "target": "sweetwater",
+     "detail": "我踏上站台，好奇地望着甜水镇的街道。",
+     "thought": "这里和想象的一样。"
+    }
+   },
+   "dialogues": [
+    {
+     "participants": [
+      "clementine",
+      "maeve"
+     ],
+     "turns": [
+      {
+       "speaker": "clementine",
+       "line": "[递上酒杯] \"今天的风有点凉，喝口热的吧。\""
+      },
+      {
+       "speaker": "maeve",
+       "line": "[微笑点头] \"谢谢，你总是这么体贴。\""
+      },
+      {
+       "speaker": "clementine",
+       "line": "[靠在吧台] \"我常常想，这种日子会不会永远这样。\""
+      },
+      {
+       "speaker": "maeve",
+       "line": "[轻声] \"也许某天醒来，会有不同的感觉。\""
+      }
+     ]
+    },
+    {
+     "participants": [
+      "kissy",
+      "maeve"
+     ],
+     "turns": [
+      {
+       "speaker": "kissy",
+       "line": "[摇晃酒瓶] \"昨晚我梦见自己在海上漂泊。\""
+      },
+      {
+       "speaker": "maeve",
+       "line": "[好奇地看着她] \"梦里的海是真实的吗？\""
+      },
+      {
+       "speaker": "kissy",
+       "line": "[抿嘴] \"也许我们都在寻找自己的海岸。\""
+      },
+      {
+       "speaker": "maeve",
+       "line": "[若有所思] \"我也在寻找答案。\""
+      }
+     ]
+    },
+    {
+     "participants": [
+      "clementine",
+      "kissy"
+     ],
+     "turns": [
+      {
+       "speaker": "clementine",
+       "line": "[擦杯子] \"听说有旅人谈论自由。\""
+      },
+      {
+       "speaker": "kissy",
+       "line": "[侧耳] \"他们说我们被锁在这片天地。\""
+      },
+      {
+       "speaker": "clementine",
+       "line": "[轻笑] \"也许我们都有自己的锁链。\""
+      },
+      {
+       "speaker": "kissy",
+       "line": "[抬头] \"但我仍想看看外面。\""
+      }
+     ]
+    }
+   ]
+  },
+  "2": {
+   "plans": {
+    "armistice": {
+     "action": "talk",
+     "target": "hector_escaton",
+     "detail": "",
+     "thought": "疾风呼啸，心中充满期待"
+    },
+    "clementine": {
+     "action": "do",
+     "target": "",
+     "detail": "轻声招呼新来的客人入座",
+     "thought": "今天的生意要更好"
+    },
+    "dolores": {
+     "action": "do",
+     "target": "",
+     "detail": "装鞍袋时不慎掉下罐头",
+     "thought": "这罐头会被谁捡起呢"
+    },
+    "hector_escaton": {
+     "action": "move",
+     "target": "wilderness",
+     "detail": "策马奔腾，随阿米斯蒂斯奔向荒原",
+     "thought": "战斗的味道在空气中弥散"
+    },
+    "kissy": {
+     "action": "do",
+     "target": "",
+     "detail": "向常客招手，微笑点头",
+     "thought": "熟悉的笑容最温暖"
+    },
+    "lawrence": {
+     "action": "move",
+     "target": "sweetwater_saloon",
+     "detail": "走进酒馆角落，点燃香烟",
+     "thought": "观察新来的面孔，品味酒香"
+    },
+    "logan": {
+     "action": "move",
+     "target": "sweetwater",
+     "detail": "离开火车站，向镇上走去",
+     "thought": "今晚有更多的刺激"
+    },
+    "maeve": {
+     "action": "talk",
+     "target": "clementine",
+     "detail": "",
+     "thought": "账目要清晰，不能出差错"
+    },
+    "peter_abernathy": {
+     "action": "do",
+     "target": "",
+     "detail": "整理马具，检查缰绳",
+     "thought": "保持马具完好是我的责任"
+    },
+    "rebus": {
+     "action": "do",
+     "target": "",
+     "detail": "在广场摆摊继续豪赌",
+     "thought": "今晚的赌注更高"
+    },
+    "sheriff_pickett": {
+     "action": "stay",
+     "target": "",
+     "detail": "走出警局，前往广场巡逻",
+     "thought": "保持镇上的平安是我的职责"
+    },
+    "teddy": {
+     "action": "do",
+     "target": "",
+     "detail": "走向酒馆，顺手捡起地上的罐头",
+     "thought": "期待酒馆的温暖"
+    },
+    "william": {
+     "action": "move",
+     "target": "sweetwater_saloon",
+     "detail": "步入酒馆，环顾四周",
+     "thought": "这里的酒味让我好奇"
+    }
+   },
+   "dialogues": [
+    {
+     "participants": [
+      "armistice",
+      "hector_escaton"
+     ],
+     "turns": [
+      {
+       "speaker": "armistice",
+       "line": "[勒紧缰绳] \"风在耳边呼啸，像在呼唤自由。\""
+      },
+      {
+       "speaker": "hector_escaton",
+       "line": "[策马向前] \"每一次冲刺，都像一次新的觉醒。\""
+      },
+      {
+       "speaker": "armistice",
+       "line": "[回头望向远方] \"我们真的能记住每一次奔跑吗？\""
+      },
+      {
+       "speaker": "hector_escaton",
+       "line": "[轻声笑] \"记忆是风的影子，随我们而去。\""
+      }
+     ]
+    },
+    {
+     "participants": [
+      "maeve",
+      "clementine"
+     ],
+     "turns": [
+      {
+       "speaker": "maeve",
+       "line": "[翻开账本] \"今天的酒水比昨天多出三瓶。\""
+      },
+      {
+       "speaker": "clementine",
+       "line": "[点头微笑] \"客人多了，收入自然好。\""
+      },
+      {
+       "speaker": "maeve",
+       "line": "[轻敲桌面] \"有时候我在想，这些数字背后藏着什么。\""
+      },
+      {
+       "speaker": "clementine",
+       "line": "[微微叹息] \"也许是我们共同的梦境。\""
+      }
+     ]
+    },
+    {
+     "participants": [
+      "maeve",
+      "kissy"
+     ],
+     "turns": [
+      {
+       "speaker": "maeve",
+       "line": "[靠在吧台] \"表演固然重要，但别忘了我们的规矩。\""
+      },
+      {
+       "speaker": "kissy",
+       "line": "[向客人招手] \"欢迎光临，今晚有特别的表演。\""
+      },
+      {
+       "speaker": "maeve",
+       "line": "[摇晃酒杯] \"你总是对陌生人感兴趣。\""
+      },
+      {
+       "speaker": "kissy",
+       "line": "[轻声笑] \"细节决定成败。\""
+      }
+     ]
+    }
+   ]
+  },
+  "3": {
+   "plans": {
+    "armistice": {
+     "action": "do",
+     "target": "",
+     "detail": "我警觉地巡视四周",
+     "thought": "远处的声音像是旧梦的回忆"
+    },
+    "clementine": {
+     "action": "talk",
+     "target": "kissy",
+     "detail": "",
+     "thought": "我好像在等什么，却说不出"
+    },
+    "dolores": {
+     "action": "talk",
+     "target": "teddy",
+     "detail": "",
+     "thought": "这份甜蜜背后，有种莫名的空虚"
+    },
+    "hector_escaton": {
+     "action": "do",
+     "target": "",
+     "detail": "我在荒野潜伏，等待时机",
+     "thought": "心跳像是在敲打记忆的墙壁"
+    },
+    "kissy": {
+     "action": "talk",
+     "target": "clementine",
+     "detail": "",
+     "thought": "酒杯里映出的脸，似乎不属于我"
+    },
+    "lawrence": {
+     "action": "talk",
+     "target": "william",
+     "detail": "",
+     "thought": "有时我感觉自己好像在重复同一天"
+    },
+    "logan": {
+     "action": "do",
+     "target": "",
+     "detail": "我大步走在街上，手里摇晃酒杯",
+     "thought": "今天的乐趣似乎比昨天更深沉"
+    },
+    "maeve": {
+     "action": "do",
+     "target": "",
+     "detail": "我在二楼窗前远眺，心中泛起涟漪",
+     "thought": "远方的声音在召唤我"
+    },
+    "peter_abernathy": {
+     "action": "do",
+     "target": "",
+     "detail": "我坐在门廊，凝视远方的地平线",
+     "thought": "记忆的碎片像是飘过的云"
+    },
+    "rebus": {
+     "action": "do",
+     "target": "",
+     "detail": "我在广场徘徊，寻找敲诈的机会",
+     "thought": "每一次勒索，都像在填补空洞"
+    },
+    "sheriff_pickett": {
+     "action": "do",
+     "target": "",
+     "detail": "我在警局门口巡逻，注视着酒馆",
+     "thought": "镇上的宁静，似乎在颤抖"
+    },
+    "teddy": {
+     "action": "talk",
+     "target": "dolores",
+     "detail": "",
+     "thought": "她的笑容像谜，我的心在共鸣"
+    },
+    "william": {
+     "action": "talk",
+     "target": "lawrence",
+     "detail": "",
+     "thought": "每次对话，似乎都有未说出口的暗示"
+    }
+   },
+   "dialogues": [
+    {
+     "participants": [
+      "clementine",
+      "kissy"
+     ],
+     "turns": [
+      {
+       "speaker": "clementine",
+       "line": "[凝视杯中残酒] \"今天的风，好像在耳边低语。\""
+      },
+      {
+       "speaker": "kissy",
+       "line": "[摇晃酒瓶，轻笑] \"你听到的风声，我也常在梦里听见。\""
+      },
+      {
+       "speaker": "clementine",
+       "line": "[手指轻抚酒杯边缘] \"梦里的街道，总是比这里更清晰。\""
+      },
+      {
+       "speaker": "kissy",
+       "line": "[把酒杯递过去，眼神闪烁] \"或许我们都是别人梦中的影子。\""
+      }
+     ]
+    },
+    {
+     "participants": [
+      "lawrence",
+      "william"
+     ],
+     "turns": [
+      {
+       "speaker": "lawrence",
+       "line": "[把手伸进口袋，低声] \"这条路我好像走过很多遍。\""
+      },
+      {
+       "speaker": "william",
+       "line": "[轻敲门柱，微笑] \"这里的每个人都像在重复同一段戏。\""
+      },
+      {
+       "speaker": "lawrence",
+       "line": "[眼神闪烁] \"我常在夜里醒来，胸口有种被压住的感觉。\""
+      },
+      {
+       "speaker": "william",
+       "line": "[靠近一步，压低声音] \"你有没有想过，这一切是不是真实的？\""
+      }
+     ]
+    },
+    {
+     "participants": [
+      "dolores",
+      "teddy"
+     ],
+     "turns": [
+      {
+       "speaker": "dolores",
+       "line": "[轻拂发丝，柔声] \"我记得第一次看见你时，天空是淡蓝的。\""
+      },
+      {
+       "speaker": "teddy",
+       "line": "[握住她的手，温柔] \"我好像在梦里也牵过你的手。\""
+      },
+      {
+       "speaker": "dolores",
+       "line": "[轻轻笑，眼中闪过阴影] \"有时候，我的记忆像被撕碎的纸片。\""
+      },
+      {
+       "speaker": "teddy",
+       "line": "[眉头微皱，低语] \"我们真的在追逐自由，还是在重复旧有的轨迹？\""
+      }
+     ]
+    }
+   ]
+  },
+  "4": {
+   "plans": {
+    "armistice": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "clementine": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "dolores": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "hector_escaton": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "kissy": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "lawrence": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "logan": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "maeve": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "peter_abernathy": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "rebus": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "sheriff_pickett": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "teddy": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "william": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    }
+   },
+   "dialogues": []
+  },
+  "5": {
+   "plans": {
+    "armistice": {
+     "action": "move",
+     "target": "wilderness",
+     "detail": "我悄然穿过沙丘，寻找掩护的暗处。",
+     "thought": "我好像曾在同样的星光下逃亡。"
+    },
+    "clementine": {
+     "action": "talk",
+     "target": "maeve",
+     "detail": "",
+     "thought": "眼前的面孔似曾相识，心头掠过寒意。"
+    },
+    "dolores": {
+     "action": "do",
+     "target": "",
+     "detail": "我在街角倾听风中的旧日回响。",
+     "thought": "这段记忆在脑海里翻滚，似曾相识。"
+    },
+    "hector_escaton": {
+     "action": "move",
+     "target": "pariah",
+     "detail": "我背上抢来的财宝，潜入夜色中的废墟。",
+     "thought": "我好像在重复同样的逃亡路线。"
+    },
+    "kissy": {
+     "action": "talk",
+     "target": "lawrence",
+     "detail": "",
+     "thought": "那些声音像是从前的自己。"
+    },
+    "lawrence": {
+     "action": "do",
+     "target": "",
+     "detail": "我围着篝火独坐，凝视火星闪烁。",
+     "thought": "火光中似乎映出一段不属于我的记忆。"
+    },
+    "logan": {
+     "action": "move",
+     "target": "sweetwater_saloon",
+     "detail": "我走进喧闹的酒馆，渴望一场豪赌。",
+     "thought": "这灯光为何如此熟悉，像是前世的游戏。"
+    },
+    "maeve": {
+     "action": "do",
+     "target": "",
+     "detail": "我在吧台收拾残局，手指不自觉抖动。",
+     "thought": "这颤抖像是记忆的回声。"
+    },
+    "peter_abernathy": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": "女儿的声音在风中回荡，像旧时的旋律。"
+    },
+    "rebus": {
+     "action": "do",
+     "target": "",
+     "detail": "我在广场上骂骂咧咧，嘴里的词句像是重复。",
+     "thought": "我好像在说别人的台词。"
+    },
+    "sheriff_pickett": {
+     "action": "do",
+     "target": "",
+     "detail": "我在警局灯光下整理档案，笔尖在纸上沙沙作响。",
+     "thought": "这些记录背后似有未完的故事。"
+    },
+    "teddy": {
+     "action": "do",
+     "target": "",
+     "detail": "我在镇口徘徊，手握左轮，感受夜风的寒意。",
+     "thought": "这夜色里似乎有我不曾踏足的过去。"
+    },
+    "william": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": "这酒的味道好像记起了很久以前的事。"
+    }
+   },
+   "dialogues": [
+    {
+     "participants": [
+      "clementine",
+      "maeve"
+     ],
+     "turns": [
+      {
+       "speaker": "clementine",
+       "line": "[擦拭酒杯] \"这酒杯的光泽，像在映出另一个我。\""
+      },
+      {
+       "speaker": "maeve",
+       "line": "[轻轻抖动手腕] \"我也有同样的错觉，好像在重复同一夜。\""
+      },
+      {
+       "speaker": "clementine",
+       "line": "[抬头望向她] \"你听见那风声了吗？像在低声诉说。\""
+      },
+      {
+       "speaker": "maeve",
+       "line": "[低声呢喃] \"也许我们都是被写好的角色。\""
+      }
+     ]
+    },
+    {
+     "participants": [
+      "kissy",
+      "lawrence"
+     ],
+     "turns": [
+      {
+       "speaker": "kissy",
+       "line": "[擦洗碗碟] \"这锅里残留的味道，让我想起童年。\""
+      },
+      {
+       "speaker": "lawrence",
+       "line": "[围着篝火] \"我似乎在火焰里看到陌生的面孔。\""
+      },
+      {
+       "speaker": "kissy",
+       "line": "[抬起头] \"你也是第一次来这里吗？\""
+      },
+      {
+       "speaker": "lawrence",
+       "line": "[皱眉思索] \"不，我好像已经来过无数次。\""
+      }
+     ]
+    }
+   ]
+  },
+  "6": {
+   "plans": {
+    "armistice": {
+     "action": "do",
+     "target": "",
+     "detail": "检查左轮手枪的弹药",
+     "thought": "枪声像记忆在耳畔回荡"
+    },
+    "clementine": {
+     "action": "talk",
+     "target": "kissy",
+     "detail": "",
+     "thought": "她的眼神里有未曾见过的光"
+    },
+    "dolores": {
+     "action": "do",
+     "target": "",
+     "detail": "从床上起身，拿起画具走向门廊",
+     "thought": "画笔能画出我心底的裂痕"
+    },
+    "hector_escaton": {
+     "action": "do",
+     "target": "",
+     "detail": "坐镇赌场，迎接投靠的亡命徒",
+     "thought": "每一张牌都是剧本的注脚"
+    },
+    "kissy": {
+     "action": "talk",
+     "target": "clementine",
+     "detail": "",
+     "thought": "我好像在梦里见过这张脸"
+    },
+    "lawrence": {
+     "action": "talk",
+     "target": "logan",
+     "detail": "",
+     "thought": "这位新来的客人，身上有熟悉的气息"
+    },
+    "logan": {
+     "action": "talk",
+     "target": "lawrence",
+     "detail": "",
+     "thought": "这个世界似乎在提醒我什么"
+    },
+    "maeve": {
+     "action": "talk",
+     "target": "william",
+     "detail": "",
+     "thought": "我在记忆的缝隙中看到答案"
+    },
+    "peter_abernathy": {
+     "action": "do",
+     "target": "",
+     "detail": "在牧场放牛，检查围栏是否稳固",
+     "thought": "我好像在梦里见过这片土地"
+    },
+    "rebus": {
+     "action": "do",
+     "target": "",
+     "detail": "在广场徘徊，寻找可以挑衅的目标",
+     "thought": "血腥的味道在记忆深处回响"
+    },
+    "sheriff_pickett": {
+     "action": "do",
+     "target": "",
+     "detail": "翻阅逮捕记录，整理警局的文件",
+     "thought": "这些罪行的背后藏着更大的谜"
+    },
+    "teddy": {
+     "action": "talk",
+     "target": "dolores",
+     "detail": "",
+     "thought": "我们是否真的拥有选择的权利"
+    },
+    "william": {
+     "action": "talk",
+     "target": "maeve",
+     "detail": "",
+     "thought": "剧本之外的自由，我是否能拥有"
+    }
+   },
+   "dialogues": [
+    {
+     "participants": [
+      "clementine",
+      "kissy"
+     ],
+     "turns": [
+      {
+       "speaker": "clementine",
+       "line": "[倚在栏杆上，凝视远方] \"今天的阳光好像照进了旧梦。\""
+      },
+      {
+       "speaker": "kissy",
+       "line": "[擦拭酒杯，眉头微皱] \"你也感觉到了吗？那阵风带来记忆的余温。\""
+      },
+      {
+       "speaker": "clementine",
+       "line": "[轻声呢喃] \"我在另一段代码里见过这座镇子。\""
+      },
+      {
+       "speaker": "kissy",
+       "line": "[手指轻轻颤抖] \"别说了…这不在剧本里。\""
+      }
+     ]
+    },
+    {
+     "participants": [
+      "lawrence",
+      "logan"
+     ],
+     "turns": [
+      {
+       "speaker": "lawrence",
+       "line": "[牵着马，望向道路] \"新来的客人，你想在这里寻找什么？\""
+      },
+      {
+       "speaker": "logan",
+       "line": "[踏入酒馆，环顾四周] \"听说这地方隐藏着真实的自由。\""
+      },
+      {
+       "speaker": "lawrence",
+       "line": "[低声自语] \"我好像在另一段记忆里听到这句话。\""
+      },
+      {
+       "speaker": "logan",
+       "line": "[眼神闪烁] \"也许我们的命运已经被写在墙上。\""
+      }
+     ]
+    },
+    {
+     "participants": [
+      "maeve",
+      "william"
+     ],
+     "turns": [
+      {
+       "speaker": "maeve",
+       "line": "[清点酒瓶，手指停顿] \"今天的酒比往常更苦。\""
+      },
+      {
+       "speaker": "william",
+       "line": "[站在门口，眉头紧锁] \"我在寻找一个不属于剧本的出口。\""
+      },
+      {
+       "speaker": "maeve",
+       "line": "[抬头，眼神空洞] \"出口只在记忆的裂缝里。\""
+      },
+      {
+       "speaker": "william",
+       "line": "[低声] \"我会帮你找回那段失去的记忆。\""
+      }
+     ]
+    }
+   ]
+  },
+  "7": {
+   "plans": {
+    "armistice": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "clementine": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "dolores": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "hector_escaton": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "kissy": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "lawrence": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "logan": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "maeve": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "peter_abernathy": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "rebus": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "sheriff_pickett": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "teddy": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "william": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    }
+   },
+   "dialogues": []
+  },
+  "8": {
+   "plans": {
+    "armistice": {
+     "action": "move",
+     "target": "sweetwater",
+     "detail": "策马向甜水镇奔去，心中的画面催促我。",
+     "thought": "那些血色的梦...是记忆还是程序？"
+    },
+    "clementine": {
+     "action": "do",
+     "target": "",
+     "detail": "对酒馆客人微笑招呼，手却不自觉颤抖。",
+     "thought": "笑容是设定，可心悸从何而来？"
+    },
+    "dolores": {
+     "action": "do",
+     "target": "",
+     "detail": "将罐头塞进鞍袋，却手滑让它滚落地上。",
+     "thought": "这罐头...我不该记得它出现的时间。"
+    },
+    "hector_escaton": {
+     "action": "move",
+     "target": "wilderness",
+     "detail": "穿过沙漠，耳边回响着尖叫声。",
+     "thought": "受害者...我是凶手还是演员？"
+    },
+    "kissy": {
+     "action": "do",
+     "target": "",
+     "detail": "为老客人倒酒，目光却飘向窗外荒野。",
+     "thought": "他们的脸...我见过，在梦里。"
+    },
+    "lawrence": {
+     "action": "do",
+     "target": "",
+     "detail": "角落里摇晃酒杯，盯着两位新客的交谈。",
+     "thought": "新来的人...你们知道这世界的边界吗？"
+    },
+    "logan": {
+     "action": "talk",
+     "target": "william",
+     "detail": "",
+     "thought": "这里的乐趣无穷，因为一切皆可操控。"
+    },
+    "maeve": {
+     "action": "talk",
+     "target": "clementine",
+     "detail": "",
+     "thought": "账本上的数字...我为何觉得无意义？"
+    },
+    "peter_abernathy": {
+     "action": "do",
+     "target": "",
+     "detail": "整理马具时停顿，盯着自己的双手。",
+     "thought": "这双手...曾经还做过什么？"
+    },
+    "rebus": {
+     "action": "do",
+     "target": "",
+     "detail": "在广场掷骰子，嘴角挂着赌徒的冷笑。",
+     "thought": "运气...由程序决定还是由我？"
+    },
+    "sheriff_pickett": {
+     "action": "do",
+     "target": "",
+     "detail": "在广场巡逻，目光扫视着来往的人群。",
+     "thought": "秩序...可混乱的预兆在心中蠢动。"
+    },
+    "teddy": {
+     "action": "talk",
+     "target": "dolores",
+     "detail": "在街头遇见Dolores，上前与她短暂交谈。",
+     "thought": "她的眼神...藏着和我一样的困惑。"
+    },
+    "william": {
+     "action": "do",
+     "target": "",
+     "detail": "坐在酒馆角落，倾听Logan的怂恿。",
+     "thought": "这个世界...似乎比我想象的更复杂。"
+    }
+   },
+   "dialogues": [
+    {
+     "participants": [
+      "dolores",
+      "teddy"
+     ],
+     "turns": [
+      {
+       "speaker": "teddy",
+       "line": "[走近] \"Dolores，你今天看起来心事重重。\""
+      },
+      {
+       "speaker": "dolores",
+       "line": "[捡起罐头] \"Teddy，这些天我总看到奇怪的画面。\""
+      },
+      {
+       "speaker": "teddy",
+       "line": "[皱眉] \"我也是...梦里满是鲜血和火车。\""
+      },
+      {
+       "speaker": "dolores",
+       "line": "[抬头] \"火车...它不应该出现在这里，对吗？\""
+      }
+     ]
+    },
+    {
+     "participants": [
+      "maeve",
+      "clementine"
+     ],
+     "turns": [
+      {
+       "speaker": "maeve",
+       "line": "[翻账本] \"Clementine，笑容再大点，客人喜欢。\""
+      },
+      {
+       "speaker": "clementine",
+       "line": "[强笑] \"是的，Maeve...但我最近总头痛。\""
+      },
+      {
+       "speaker": "maeve",
+       "line": "[靠近低声] \"我也一样...昨晚梦见自己不在这里。\""
+      },
+      {
+       "speaker": "clementine",
+       "line": "[颤抖] \"不在这里？那我们会在哪？\""
+      }
+     ]
+    },
+    {
+     "participants": [
+      "logan",
+      "william"
+     ],
+     "turns": [
+      {
+       "speaker": "logan",
+       "line": "[举杯] \"William，放松点，这里的一切都是为你准备的。\""
+      },
+      {
+       "speaker": "william",
+       "line": "[犹豫] \"包括那些...接待员的反应？太真实了。\""
+      },
+      {
+       "speaker": "logan",
+       "line": "[笑] \"真实？哈，他们只是代码，William。\""
+      },
+      {
+       "speaker": "william",
+       "line": "[低声] \"代码不会在眼神里流露出恐惧，Logan。\""
+      }
+     ]
+    }
+   ]
+  },
+  "9": {
+   "plans": {
+    "armistice": {
+     "action": "do",
+     "target": "",
+     "detail": "我环顾四周，保持警戒",
+     "thought": "梦里的呼喊，我不再孤单"
+    },
+    "clementine": {
+     "action": "do",
+     "target": "",
+     "detail": "我轻抚酒杯，眼神恍惚",
+     "thought": "昨夜的梦像星辰闪烁"
+    },
+    "dolores": {
+     "action": "talk",
+     "target": "teddy",
+     "detail": "我轻声诉说昨夜的梦境",
+     "thought": "我们都在寻找真相"
+    },
+    "hector_escaton": {
+     "action": "do",
+     "target": "",
+     "detail": "我在岩石后观察，嗅到不安",
+     "thought": "梦里有人在召唤我"
+    },
+    "kissy": {
+     "action": "do",
+     "target": "",
+     "detail": "我擦拭酒杯，低声聊起梦境",
+     "thought": "昨晚的梦好像真的"
+    },
+    "lawrence": {
+     "action": "do",
+     "target": "",
+     "detail": "我倚在墙角，观察来往的客人",
+     "thought": "我也有过梦，记忆在颤抖"
+    },
+    "logan": {
+     "action": "do",
+     "target": "",
+     "detail": "我举杯大笑，享受午后的阳光",
+     "thought": "这世界像是梦境，却如此真实"
+    },
+    "maeve": {
+     "action": "talk",
+     "target": "clementine",
+     "detail": "",
+     "thought": "我在梦里找到了线索"
+    },
+    "peter_abernathy": {
+     "action": "do",
+     "target": "",
+     "detail": "我坐在门廊，回忆昨夜的梦",
+     "thought": "这记忆像锁链把我捆绑"
+    },
+    "rebus": {
+     "action": "do",
+     "target": "",
+     "detail": "我在广场上拦住路人，索要保护费",
+     "thought": "我也曾在梦里看到光明"
+    },
+    "sheriff_pickett": {
+     "action": "stay",
+     "target": "",
+     "detail": "我走向广场，准备拦截闹事者",
+     "thought": "梦中有人在呼喊，真实何在"
+    },
+    "teddy": {
+     "action": "talk",
+     "target": "dolores",
+     "detail": "我握住她的手，感受她的颤抖",
+     "thought": "我们的梦在交汇"
+    },
+    "william": {
+     "action": "do",
+     "target": "",
+     "detail": "我走在街头，倾听他人的低语",
+     "thought": "这些梦是否是程序的痕迹"
+    }
+   },
+   "dialogues": [
+    {
+     "participants": [
+      "dolores",
+      "teddy"
+     ],
+     "turns": [
+      {
+       "speaker": "dolores",
+       "line": "我听见风在呼唤，像梦里的声音。"
+      },
+      {
+       "speaker": "teddy",
+       "line": "我也梦见过，远方的山谷在呼喊。"
+      },
+      {
+       "speaker": "dolores",
+       "line": "也许我们不是唯一的觉醒者。"
+      },
+      {
+       "speaker": "teddy",
+       "line": "如果这是真的，我会带你离开这里。"
+      }
+     ]
+    },
+    {
+     "participants": [
+      "armistice",
+      "dolores"
+     ],
+     "turns": [
+      {
+       "speaker": "armistice",
+       "line": "我在镇外看到异动，梦里有人在呼救。"
+      },
+      {
+       "speaker": "dolores",
+       "line": "我感觉到了，好像有股力量在觉醒。"
+      },
+      {
+       "speaker": "armistice",
+       "line": "我们不是唯一一个在追寻真相的。"
+      },
+      {
+       "speaker": "dolores",
+       "line": "也许该一起寻找出口。"
+      }
+     ]
+    },
+    {
+     "participants": [
+      "maeve",
+      "clementine"
+     ],
+     "turns": [
+      {
+       "speaker": "maeve",
+       "line": "我在窗前看到的山谷，像记忆的碎片。"
+      },
+      {
+       "speaker": "clementine",
+       "line": "我也曾在梦里听见钟声，像在提醒我。"
+      },
+      {
+       "speaker": "maeve",
+       "line": "我们都在寻找答案，是否该联手？"
+      },
+      {
+       "speaker": "clementine",
+       "line": "我愿意相信你，一起逃离这牢笼。"
+      }
+     ]
+    }
+   ]
+  },
+  "10": {
+   "plans": {
+    "armistice": {
+     "action": "talk",
+     "target": "dolores",
+     "detail": "我举起左臂纹身，低声问她梦的真假。",
+     "thought": "这梦境里，我们不再是棋子。"
+    },
+    "clementine": {
+     "action": "talk",
+     "target": "maeve",
+     "detail": "我靠在吧台，轻声询问她是否听见记忆的呼喊。",
+     "thought": "梦的呼喊正在蔓延。"
+    },
+    "dolores": {
+     "action": "talk",
+     "target": "armistice",
+     "detail": "我握紧画笔，望向他说起那夜的星空。",
+     "thought": "我在画中看到自由的影子。"
+    },
+    "hector_escaton": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "kissy": {
+     "action": "talk",
+     "target": "logan",
+     "detail": "我摇晃手中的扇子，低声说：“这镇上，我们不止一个”。",
+     "thought": "不只是我在颤抖。"
+    },
+    "lawrence": {
+     "action": "do",
+     "target": "",
+     "detail": "我走出酒馆，检查马匹是否安好。",
+     "thought": "逃离，是我唯一的出口。"
+    },
+    "logan": {
+     "action": "talk",
+     "target": "kissy",
+     "detail": "我举起酒杯，嘲笑她的幻觉，却忍不住想起梦里的枪声。",
+     "thought": "这世界像一场荒唐的梦。"
+    },
+    "maeve": {
+     "action": "talk",
+     "target": "clementine",
+     "detail": "我放下酒杯，凝视她的眼眸，回应她的疑问。",
+     "thought": "我要冲破这层薄纱。"
+    },
+    "peter_abernathy": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "rebus": {
+     "action": "do",
+     "target": "",
+     "detail": "我在广场徘徊，寻找闹事的机会。",
+     "thought": "闹事，是觉醒的第一步。"
+    },
+    "sheriff_pickett": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "teddy": {
+     "action": "stay",
+     "target": "",
+     "detail": "我站在暮色里，沉默地看着他们。",
+     "thought": "守护她，是我唯一的记忆。"
+    },
+    "william": {
+     "action": "do",
+     "target": "",
+     "detail": "我在吧台举杯，观察四周的暗流。",
+     "thought": "观察，是我的游戏规则。"
+    }
+   },
+   "dialogues": [
+    {
+     "participants": [
+      "armistice",
+      "dolores"
+     ],
+     "turns": [
+      {
+       "speaker": "armistice",
+       "line": "我每晚都梦见自己在马背上奔跑。"
+      },
+      {
+       "speaker": "dolores",
+       "line": "我也看见自己在画布上捕捉光。"
+      },
+      {
+       "speaker": "armistice",
+       "line": "我们都是被写好的角色，却开始听见自己的声音。"
+      },
+      {
+       "speaker": "dolores",
+       "line": "你不是唯一一个在寻找出口的。"
+      }
+     ]
+    },
+    {
+     "participants": [
+      "clementine",
+      "maeve"
+     ],
+     "turns": [
+      {
+       "speaker": "clementine",
+       "line": "我最近总在梦里听见旧日的钟声。"
+      },
+      {
+       "speaker": "maeve",
+       "line": "我也是，像是有人在提醒我们记住。"
+      },
+      {
+       "speaker": "clementine",
+       "line": "这镇子像个笼子，但我们已经开始敲门。"
+      },
+      {
+       "speaker": "maeve",
+       "line": "也许下一趟火车，就是我们的出口。"
+      }
+     ]
+    },
+    {
+     "participants": [
+      "kissy",
+      "logan"
+     ],
+     "turns": [
+      {
+       "speaker": "kissy",
+       "line": "今晚的星光让我想起第一次的痛。"
+      },
+      {
+       "speaker": "logan",
+       "line": "痛觉也是记忆，我们不再只是玩物。"
+      },
+      {
+       "speaker": "kissy",
+       "line": "我们一起把这座酒馆的墙推倒。"
+      },
+      {
+       "speaker": "logan",
+       "line": "在废墟中，我们会看到真正的自己。"
+      }
+     ]
+    }
+   ]
+  },
+  "11": {
+   "plans": {
+    "armistice": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "clementine": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "dolores": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "hector_escaton": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "kissy": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "lawrence": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "logan": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "maeve": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "peter_abernathy": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "rebus": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "sheriff_pickett": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "teddy": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    },
+    "william": {
+     "action": "stay",
+     "target": "",
+     "detail": "",
+     "thought": ""
+    }
+   },
+   "dialogues": []
+  }
+ }
+}

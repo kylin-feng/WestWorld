@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Runtime / generated
+output/
+logs/
+.env
+.env.local
+frontend/data/tick_*.jpg
+frontend/data/story_*.jpg
+
+# macOS
+.DS_Store

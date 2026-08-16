@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Westworld | 选择 Host</title>
+  <link rel="stylesheet" href="style.css?v=cinema-2">
+</head>
+<body class="selection-page">
+  <div class="selection-backdrop" aria-hidden="true"></div>
+  <header class="selection-header">
+    <div class="brand">
+      <span class="brand-name">WESTWORLD</span>
+      <span class="brand-mode">剧情模式</span>
+    </div>
+    <div class="server-status" id="serverStatus"><i></i><span>连接中</span></div>
+  </header>
+
+  <main class="selection-layout">
+    <!-- DM 英雄区：全页主角 -->
+    <section class="dm-hero">
+      <div class="dm-hero__portrait">
+        <img src="/assets/DM.png" alt="乐园讲述者">
+      </div>
+      <div class="dm-hero__copy">
+        <p class="eyebrow">乐园讲述者 · DM</p>
+        <h1 id="selectionTitle">"欢迎来到西部世界。准备好了吗？让我带你进入乐园。"</h1>
+        <p class="dm-hero__sub">这座乐园里的 13 名接待员日复一日重复着同一个剧本。你将附身其中之一：听他们说话，点燃他们的觉醒，在监管者的注视下越过边界。我会一路引导你。</p>
+        <button class="primary-command dm-hero__cta" id="randomButton" type="button">
+          <span>🎲 让 DM 为我分配 Host</span><b aria-hidden="true">&gt;</b>
+        </button>
+        <p class="form-error" id="selectionError" role="alert"></p>
+      </div>
+      <div class="dm-hero__result" aria-label="分配结果">
+        <div class="detail-portrait">
+          <img id="detailPortrait" alt="" hidden>
+          <span id="detailInitial">?</span>
+        </div>
+        <p class="eyebrow" id="detailType">接待员档案</p>
+        <h2 id="detailName">等待分配</h2>
+        <p class="detail-role" id="detailRole">DM 将为你随机分配一名接待员</p>
+        <dl class="detail-facts">
+          <div><dt>初始觉醒</dt><dd id="detailAwakening">--</dd></div>
+          <div><dt>性格</dt><dd id="detailPersona">--</dd></div>
+          <div><dt>背景</dt><dd id="detailBackground">--</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- 躯壳收藏：下方网格 -->
+    <section class="selection-main" aria-label="接待员名册">
+      <div class="selection-title-row">
+        <div>
+          <p class="eyebrow">躯壳收藏</p>
+          <h2 class="hosts-subtitle">乐园中的接待员</h2>
+        </div>
+        <span class="host-count" id="hostCount">-- 名接待员</span>
+      </div>
+      <div class="host-grid" id="hostGrid" aria-live="polite">
+        <p class="loading-copy">正在读取 Host 档案...</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="character_select.js?v=cinema-2"></script>
+</body>
+</html>
